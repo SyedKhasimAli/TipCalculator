@@ -1,0 +1,95 @@
+*{
+box-sizing: border-box;}
+body{
+    background-color: #3d88af;
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    height:60%;
+    width:400px;
+    border-radius:20px;
+    background-color: cornflowerblue;
+  
+
+    
+}
+.qns{
+    color:whitesmoke;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+select:focus{
+    border-color: rgb(5, 40, 199);
+
+}
+button:hover{
+    background-color: rgb(122, 82, 82);
+}
+h1{
+    background-color: rgb(115, 41, 211);
+    margin-top:0;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+/* .textfield:focus{
+    ba
+} */
+#fqn,#sqns{
+    display: flex;
+    justify-content: center;
+   
+}
+#tqns{
+    margin-left: 10px;
+    text-overflow: ellipsis;
+}
+/* .but{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkgray;
+    display: block;
+    margin-left:30px;
+} */
+#selectfield,#textfield,#txtpeople{
+    margin-left:130;
+}
+#selectfield:focus{
+    border:3px solid rgb(243, 12, 12);
+    outline:none;
+}
+#textfield:focus,#txtpeople:focus{
+    border:3px solid rgb(243, 12, 12);
+    outline:none;
+}
+.res{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:darkviolet
+}
+button{
+    display: block;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    cursor: pointer;
+}
+button:active{
+    top:2px;
+}
+#tipvalue #each{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
